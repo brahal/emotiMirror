@@ -1,0 +1,116 @@
+/* Allgemein */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Haupt-Container */
+.container {
+    text-align: center;
+    padding: 4rem;
+    max-width: 550px;
+    width: 100%;
+    background: #ffffff;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Titel */
+h1 {
+    font-size: 3rem;
+    color: #3b28cc;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* Video */
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+button,
+a.button-link {
+    font-size: 1.2rem;
+    display: inline-block;
+    background-color: #4f46e5; /* Violett-Blau */
+    color: white;
+    font-weight: 600;
+    padding: 10px 16px;
+    margin: 8px 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+a.button-link:hover {
+    background-color: #4338ca;
+}
+
+a.button-link {
+    background-color: #facc15; /* Gelb */
+    color: black;
+}
+
+a.button-link:hover {
+    background-color: #eab308;
+}
+
+#capture:hover {
+    background-color: #3535d8;
+}
+
+/* Emotion */
+#emotion {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #111;
+}
+
+/* Poem / Text */
+#poem {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    color: #444;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+/* Bild */
+#artwork {
+    max-width: 90%;
+    border-radius: 10px;
+    margin: 15px auto;
+    display: block;
+}
+
+/* Ladeanzeige */
+#loading-msg {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #c0392b;
+}

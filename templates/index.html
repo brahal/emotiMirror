@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmotiMirror</title>
+    <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+<div class="container">
+    <h1>EmotiMirror</h1>
+    <p class="subtitle">Erkenne deine Emotionen und sieh dich als Kunstwerk.</p>
+
+    <video id="video" autoplay></video>
+
+    <button id="capture">Emotion analysieren & Bild erzeugen</button>
+    <button id="restartBtn" onclick="restart()" style="display: none;">🔄 Neues Bild erzeugen</button>
+
+    <!-- EMOTIONSTEXT -->
+    <p id="emotion" style="display: none; font-weight: bold; color: #333; text-align: center;"></p>
+
+    <!-- POETISCHER TEXT -->
+    <p id="poem" style="display: none; font-style: italic; color: #666; text-align: center;"></p>
+
+    <!-- KUNSTBILD -->
+    <img id="artwork" src="" alt="Kunstwerk" style="display: none; max-width: 100%; border-radius: 10px; margin-top: 15px;" />
+
+    <a id="downloadBtn" href="#" style="display: none;" class="btn btn-primary button-link">Kunstwerk herunterladen</a>
+
+    <!-- LADEN-NACHRICHT -->
+    <p id="loading-msg" style="display: none; color: #cc0000; text-align: center; margin-top: 10px;"></p>
+</div>
+
+<script src="../static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+tensorflow-macos==2.13.0
+keras==2.13.1
+opencv-python
+flask
+pillow
+numpy==1.24.3
