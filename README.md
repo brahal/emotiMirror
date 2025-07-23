@@ -1,16 +1,16 @@
 # EmotiMirror – Emotion trifft auf Kunst
 
-**EmotiMirror** ist eine interaktive Webanwendung, die Emotionen aus einem Webcam-Selfie erkennt und in ein stilisiertes digitales Kunstwerk im Ölmalerei-Stil überträgt – ergänzt durch einen poetischen Satz, passend zur erkannten Emotion.
+**EmotiMirror** ist eine interaktive Webanwendung, die Emotionen aus einem Webcam-Selfie erkennt und diese in ein stilisiertes digitales Kunstwerk im Ölmalerei-Stil überträgt – ergänzt durch einen poetischen Satz, passend zur erkannten Emotion.
 
 ## Funktionen
 
-- 📷 Webcam-Snapshot mit Emotionserkennung (CNN + `emotion_model.h5`)
-- 🧠 Deep Learning mit Keras + OpenCV zur Emotionserkennung (traurig, glücklich, überrascht, usw.)
-- 🎨 Bildgenerierung mit Stable Diffusion `img2img` (lokal, LoRA-Stilmodell z. B. OilPainting)
-- 🖼️ Gesichtsausdruck & Form bleiben erhalten (Mund, Augen, Gesichtskonturen)
-- 📝 Poetischer Text wird zur erkannten Emotion erzeugt
-- 📥 Downloadfunktion für das fertige Kunstporträt
-- 🖥️ Offline lauffähig (lokal in Flask), kein Cloud-Zugriff nötig
+- Aufnahme eines Webcam-Selfies mit automatischer Emotionserkennung (CNN + `emotion_model.h5`)
+- Deep Learning mit Keras & OpenCV zur Erkennung von Emotionen wie Trauer, Freude, Überraschung u. a.
+- Künstlerische Bildtransformation mit Stable Diffusion (`img2img`) unter Verwendung eines LoRA-Stilmodells (z. B. OilPainting)
+-  Gesichtsausdruck & Konturen bleiben im Kunstbild erhalten (Mund, Augen, Gesichtsform)
+-  Automatische Generierung eines poetischen Satzes passend zur erkannten Emotion
+-  Downloadfunktion für das fertige Kunstporträt
+- Offline lauffähig (lokal via Flask) – kein Internet oder Cloud-Zugriff erforderlich
 
 ---
 
@@ -32,9 +32,9 @@
 1. Clone das Repository:
 
 ```bash
-git clone  https://github.com/brahal/emoti_mirror.git
+git clone  https://github.com/brahal/emotiMirror.git
 
-cd emoti-mirror
+cd emotiMirror
 ```
 
 ## Autorin
